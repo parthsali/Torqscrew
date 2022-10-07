@@ -2244,6 +2244,7 @@ button.fit,
 .button.fit {
   border-radius: 60px;
   width: 20%;
+  margin-top: 10px;
 }
 
 input[type="submit"].small,
