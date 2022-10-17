@@ -174,6 +174,10 @@ body {
   html,
   body {
     min-width: 320px;
+
+  }
+  .button.fit{
+    width: 30%;
   }
 }
 
@@ -214,17 +218,24 @@ html {
   html {
     font-size: 12pt;
   }
+
 }
 
 @media screen and (max-width: 1280px) {
   html {
     font-size: 11pt;
   }
+  .button.fit{
+    width: 30%;
+  }
 }
 
 @media screen and (max-width: 360px) {
   html {
     font-size: 10pt;
+  }
+  .image{
+    display: none;
   }
 }
 
@@ -2243,8 +2254,8 @@ input[type="button"].fit,
 button.fit,
 .button.fit {
   border-radius: 60px;
-  width: 20%;
-  margin-top: 10px;
+  width: 30%;
+  margin: auto;
 }
 
 input[type="submit"].small,
@@ -4837,4 +4848,17 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 #ourJourney {
   border: 1px solid black;
+}
+#leader{
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+#headingLikearock{
+  text-align: center;
+  margin: auto;
+}
+#headingLeader{
+  text-align: center;
+  margin: auto;
 }
