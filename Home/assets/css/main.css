@@ -4876,3 +4876,11 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
   text-align: center;
   margin: auto;
 }
+
+#pr-img {
+  width: 110%;
+}
+
+#fi-img {
+  width: 104%;
+}
